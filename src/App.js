@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import "./App.css";
 import CurrencyRow from "./CurrencyRow";
 
-const BASE_URL = "http://api.exchangeratesapi.io/v1/latest?";
-const ACCESS_KEY = "027b0a1b1e93e7c46eb16ae0f4293621";
+const BASE_URL = "http://api.exchangeratesapi.io/v1/latest";
+const access_key = "027b0a1b1e93e7c46eb16ae0f4293621";
 
 function App() {
   useEffect(() => {
